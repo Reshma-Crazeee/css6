@@ -1,0 +1,122 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("./shara\ desert.jpg");
+    overflow: hidden;
+
+}
+div.screen{
+    transition: transform 0.5s;
+
+}
+.screen:hover{
+    transform:translateY(-5px)
+}
+div.main{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+    padding:10px 100px;
+
+}
+.logo{
+    position: absolute;
+    left: 150px;
+    top: 25px;
+
+}
+.home{
+    text-decoration: none;
+    color: white;
+}
+li{
+    display: inline-block;
+    margin-left: 60px;
+}
+.menu{
+    position: absolute;
+    top: 16px;
+    right: 36px;
+}
+div.sahara{
+    display: flex;
+    align-items: center;
+}
+div.box{
+    color: white;
+    /* flex-basis: 50%; */
+    padding-left: 150px;
+}
+.des{
+    font-size: 70px;
+}
+.text{
+    font-size: 20px;
+    line-height: 30px;
+}
+.exp{
+    background-color: white;
+    border-radius: 25px;
+    width: fit-content;
+    margin: 20px;
+    padding: 10px 40px 10px 40px;
+}
+
+div.child{
+    height: 250px;
+    width: 250px;
+    display: inline-block;
+    padding: 10px;
+    margin:30px 35px;
+    border-radius: 15px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+.child:hover{
+    transform: translateY(-5px);
+}
+.child1{
+    background-image: url("./pic-1.png");
+    background-size: cover;
+    background-position:center ;
+}
+.child2{
+    background-image: url("./pic-2.png");
+    background-size: cover;
+    background-position:center ;
+}
+.child3{
+    background-image: url("./pic-3.png");
+    background-size: cover;
+    background-position:center ;
+}
+.child4{
+    background-image: url("./pic-4.png");
+    background-size: cover;
+    background-position:center ;
+}
+
+ @media screen and (min-width:359px) and (max-width:767px) {
+    .fun{
+    position: absolute;
+    top:100px;
+    left: 10px;
+    } 
+    .logo{
+        position: absolute;
+        left: 20px;
+    }
+    .pics{
+        position: absolute;
+        top:380px;
+        right: 12px;
+    }
+    div.child{
+        width: 310px;
+        height: 190px;
+        margin: 41px 0px 14px;
+    }
+
+}
